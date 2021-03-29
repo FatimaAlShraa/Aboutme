@@ -1,0 +1,30 @@
+header h1{
+    color: rgb(24, 49, 41);
+    font-size: x-large;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-style: initial;
+    background-color: thistle;
+
+}
+
+nav li a{
+
+    text-decoration: none;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    color: palevioletred;
+}
+h2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: rgb(146, 87, 36);
+
+}
+
+p{ 
+    color: rgb(95, 22, 19);
+    font-style: italic;
+    
+}

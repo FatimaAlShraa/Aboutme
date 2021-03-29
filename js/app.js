@@ -1,0 +1,98 @@
+'use strict'
+
+
+let userName=prompt("what's your name?")
+
+alert('Hello ' + userName);
+
+let firstAsk=prompt('Do I like sleep?');
+
+firstAsk=firstAsk.toLowerCase();
+
+if(firstAsk==='yes'){
+   // console.log('that is right');
+    alert('that is right');
+
+}if (firstAsk==='no'){
+   // console.log('no i love it');
+    alert('no i love it');
+}
+
+else{
+   // console.log('answer yes or no');
+}
+
+
+let secondAsk=prompt("Do  I like food ?")
+
+secondAsk=secondAsk.toUpperCase();
+
+if(secondAsk==='YES'){
+    //console.log('that is right');
+    alert('that is right');
+
+}if (secondAsk==='NO') {
+    //console.log('no i love it');
+    alert('no i love it');
+}
+
+else{
+   // console.log('answer yes or no');
+    alert('answer yes or no');
+}
+
+let thirdAsk=prompt("Do I have so much money?")
+
+thirdAsk=thirdAsk.toLowerCase();
+
+if(thirdAsk==='yes'){
+   // console.log('no it is wrong');
+    alert('no it is wrong');
+
+}if (thirdAsk==='no') {
+   // console.log('you are right');
+    alert('you are right');
+}
+
+else{
+   // console.log('answer yes or no');
+    alert('answer yes or no');
+}
+
+let fourthAsk=prompt("Do I like Mercedece car?")
+
+fourthAsk=fourthAsk.toLowerCase();
+
+if(fourthAsk==='yes'){
+   // console.log('that is right');
+    alert('that is right');
+
+}if (fourthAsk==='no') {
+    //console.log('no i really love it');
+    alert('no i really love it');
+}
+
+else{
+    //console.log('answer yes or no');
+    alert('answer yes or no');
+}
+
+let fifthAsk=prompt("Do you annoyed from my question?")
+
+fifthAsk=fifthAsk.toUpperCase();
+
+if(fifthAsk==='YES'){
+    //console.log('it is uo to you');
+    alert('it is uo to you');
+
+}if (fifthAsk==='NO') {
+   // console.log('no i love it');
+    alert('no i love it');
+}
+
+else{
+    console.log('answer yes or no');
+    alert('answer yes or no');
+}
+
+alert('welcome in website  ' + userName)
