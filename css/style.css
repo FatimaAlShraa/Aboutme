@@ -10,7 +10,7 @@ header h1{
 }
 
 nav li a{
-
+   margin-left: 20px;
     text-decoration: none;
     margin-bottom: 50px;
     margin-top: 20px;
@@ -20,11 +20,22 @@ h2{
     margin-bottom: 20px;
     margin-top: 20px;
     color: rgb(146, 87, 36);
-
+    margin-left: 15px;
 }
 
-p{ 
+.item{ 
     color: rgb(95, 22, 19);
     font-style: italic;
-    
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+ul li{
+    margin-left: 10px;
+     color: cadetblue
+    ;
+}
+ol li{
+    margin-left: 10px;
+    color: darksalmon;
 }

@@ -1,8 +1,9 @@
-'use strict'
+'use strict';
 
 
+console.log('good')
 let userName=prompt("what's your name?")
-
+let score=0;
 alert('Hello ' + userName);
 
 let firstAsk=prompt('Do I like sleep?');
@@ -12,7 +13,7 @@ firstAsk=firstAsk.toLowerCase();
 if(firstAsk==='yes'){
    // console.log('that is right');
     alert('that is right');
-
+    score++
 }if (firstAsk==='no'){
    // console.log('no i love it');
     alert('no i love it');
@@ -30,7 +31,7 @@ secondAsk=secondAsk.toUpperCase();
 if(secondAsk==='YES'){
     //console.log('that is right');
     alert('that is right');
-
+   score++
 }if (secondAsk==='NO') {
     //console.log('no i love it');
     alert('no i love it');
@@ -52,6 +53,7 @@ if(thirdAsk==='yes'){
 }if (thirdAsk==='no') {
    // console.log('you are right');
     alert('you are right');
+    score++
 }
 
 else{
@@ -66,7 +68,7 @@ fourthAsk=fourthAsk.toLowerCase();
 if(fourthAsk==='yes'){
    // console.log('that is right');
     alert('that is right');
-
+   score++
 }if (fourthAsk==='no') {
     //console.log('no i really love it');
     alert('no i really love it');
@@ -83,16 +85,65 @@ fifthAsk=fifthAsk.toUpperCase();
 
 if(fifthAsk==='YES'){
     //console.log('it is uo to you');
-    alert('it is uo to you');
+    alert('it is up to you');
 
 }if (fifthAsk==='NO') {
    // console.log('no i love it');
     alert('no i love it');
+    score++
 }
 
 else{
     console.log('answer yes or no');
     alert('answer yes or no');
-}
 
-alert('welcome in website  ' + userName)
+}
+     
+let sixthAsk=prompt("Please gusse number that I think about it , it's between 0 to 7");
+ //sixthAsk-parseInt(sixthAsk);
+let answer=3
+   for(let i=0 ; i<5 ;i++){
+    if(sixthAsk==answer){
+        console.log("the answer is true")
+        score++
+        break;
+        
+    }
+      else if(sixthAsk<answer){
+        sixthAsk=prompt('it is too low');
+       }
+
+       else if(sixthAsk>answer){
+         sixthAsk=prompt ("it's too high");
+       }  
+
+    else{
+        alert("try again with number value")
+    }
+
+   
+
+    
+
+     } 
+     alert('my correct answer is 3')
+
+     let bestColor=prompt("what is my favourite color?")
+     let myChose=['pink' , 'black']
+     bestColor.toLowerCase();
+
+     for(let j=0 ; j<7 ; j++){
+
+        if(bestColor==myChose[0] || bestColor==myChose[1]){
+           alert("your answer right") 
+           score++  
+           break;
+                   
+        }
+    else{
+        bestColor=prompt("try again ")
+    }
+     }
+
+
+    alert('welcome in website  ' + userName +'your score is ' + score );
