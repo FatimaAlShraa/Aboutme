@@ -1,7 +1,7 @@
 'use strict';
 
 
-console.log('good')
+
 let userName=prompt("what's your name?")
 let score=0;
 alert('Hello ' + userName);
@@ -12,16 +12,16 @@ function qONE(){
     firstAsk=firstAsk.toLowerCase();
     
     if(firstAsk==='yes'){
-       // console.log('that is right');
+      
         alert('that is right');
         score++
     }if (firstAsk==='no'){
-       // console.log('no i love it');
+       
         alert('no i love it');
     }
     
     else{
-       // console.log('answer yes or no');
+       
     }return firstAsk
 }qONE()
 
@@ -33,16 +33,15 @@ function secQ(){
     secondAsk=secondAsk.toUpperCase();
     
     if(secondAsk==='YES'){
-        //console.log('that is right');
+       
         alert('that is right');
        score++
     }if (secondAsk==='NO') {
-        //console.log('no i love it');
+        
         alert('no i love it');
     }
     
     else{
-       // console.log('answer yes or no');
         alert('answer yes or no');
     }return secondAsk
 }
@@ -54,17 +53,14 @@ function thirdQ(){
     thirdAsk=thirdAsk.toLowerCase();
     
     if(thirdAsk==='yes'){
-       // console.log('no it is wrong');
         alert('no it is wrong');
     
     }if (thirdAsk==='no') {
-       // console.log('you are right');
         alert('you are right');
         score++
     }
     
     else{
-       // console.log('answer yes or no');
         alert('answer yes or no');
     }return thirdAsk
 }
@@ -76,16 +72,15 @@ function fourQ(){
     fourthAsk=fourthAsk.toLowerCase();
     
     if(fourthAsk==='yes'){
-       // console.log('that is right');
         alert('that is right');
        score++
     }if (fourthAsk==='no') {
-        //console.log('no i really love it');
+
         alert('no i really love it');
     }
     
     else{
-        //console.log('answer yes or no');
+
         alert('answer yes or no');
     }return fourthAsk
 }fourQ()
@@ -96,11 +91,9 @@ function fiveQ(){
     fifthAsk=fifthAsk.toUpperCase();
     
     if(fifthAsk==='YES'){
-        //console.log('it is uo to you');
         alert('it is up to you');
     
     }if (fifthAsk==='NO') {
-       // console.log('no i love it');
         alert('no i love it');
         score++
     }
@@ -114,7 +107,6 @@ function fiveQ(){
      function qSixe(){
 
          let sixthAsk=prompt("Please gusse number that I think about it , it's between 0 to 7");
-          //sixthAsk-parseInt(sixthAsk);
          let answer=3
             for(let i=0 ; i<5 ;i++){
              if(sixthAsk==answer){
