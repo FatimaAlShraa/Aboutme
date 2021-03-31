@@ -111,35 +111,38 @@ function fiveQ(){
     
     }return fifthAsk
 }fiveQ()
-     
-let sixthAsk=prompt("Please gusse number that I think about it , it's between 0 to 7");
- //sixthAsk-parseInt(sixthAsk);
-let answer=3
-   for(let i=0 ; i<5 ;i++){
-    if(sixthAsk==answer){
-        console.log("the answer is true")
-        score++
-        break;
-        
-    }
-      else if(sixthAsk<answer){
-        sixthAsk=prompt('it is too low');
-       }
+     function qSixe(){
 
-       else if(sixthAsk>answer){
-         sixthAsk=prompt ("it's too high");
-       }  
-
-    else{
-        alert("try again with number value")
-    }
-
-   
-
-    
-
-     } 
-     alert('my correct answer is 3')
+         let sixthAsk=prompt("Please gusse number that I think about it , it's between 0 to 7");
+          //sixthAsk-parseInt(sixthAsk);
+         let answer=3
+            for(let i=0 ; i<5 ;i++){
+             if(sixthAsk==answer){
+                 console.log("the answer is true")
+                 score++
+                 break;
+                 
+             }
+               else if(sixthAsk<answer){
+                 sixthAsk=prompt('it is too low');
+                }
+         
+                else if(sixthAsk>answer){
+                  sixthAsk=prompt ("it's too high");
+                }  
+         
+             else{
+                 alert("try again with number value")
+             }
+         
+            
+         
+             
+         
+              } 
+              alert('my correct answer is 3')
+              return sixthAsk
+     }qSixe()
 
      let bestColor=prompt("what is my favourite color?")
      let myChose=['pink' , 'black']
