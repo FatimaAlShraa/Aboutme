@@ -5,23 +5,26 @@ console.log('good')
 let userName=prompt("what's your name?")
 let score=0;
 alert('Hello ' + userName);
+function qONE(){
 
-let firstAsk=prompt('Do I like sleep?');
+    let firstAsk=prompt('Do I like sleep?');
+    
+    firstAsk=firstAsk.toLowerCase();
+    
+    if(firstAsk==='yes'){
+       // console.log('that is right');
+        alert('that is right');
+        score++
+    }if (firstAsk==='no'){
+       // console.log('no i love it');
+        alert('no i love it');
+    }
+    
+    else{
+       // console.log('answer yes or no');
+    }return firstAsk
+}qONE()
 
-firstAsk=firstAsk.toLowerCase();
-
-if(firstAsk==='yes'){
-   // console.log('that is right');
-    alert('that is right');
-    score++
-}if (firstAsk==='no'){
-   // console.log('no i love it');
-    alert('no i love it');
-}
-
-else{
-   // console.log('answer yes or no');
-}
 
 
 let secondAsk=prompt("Do  I like food ?")
