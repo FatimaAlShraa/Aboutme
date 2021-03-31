@@ -143,23 +143,25 @@ function fiveQ(){
               alert('my correct answer is 3')
               return sixthAsk
      }qSixe()
+function Q7(){
 
-     let bestColor=prompt("what is my favourite color?")
-     let myChose=['pink' , 'black']
-     bestColor.toLowerCase();
+    let bestColor=prompt("what is my favourite color?")
+    let myChose=['pink' , 'black']
+    bestColor.toLowerCase();
 
-     for(let j=0 ; j<7 ; j++){
+    for(let j=0 ; j<7 ; j++){
 
-        if(bestColor==myChose[0] || bestColor==myChose[1]){
-           alert("your answer right") 
-           score++  
-           break;
-                   
-        }
-    else{
-        bestColor=prompt("try again ")
-    }
-     }
+       if(bestColor==myChose[0] || bestColor==myChose[1]){
+          alert("your answer right") 
+          score++  
+          break;
+                  
+       }
+   else{
+       bestColor=prompt("try again ")
+   }
+    }return bestColor
 
+}Q7()
 
     alert('welcome in website  ' + userName +'your score is ' + score );
