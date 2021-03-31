@@ -26,24 +26,26 @@ function qONE(){
 }qONE()
 
 
-
-let secondAsk=prompt("Do  I like food ?")
-
-secondAsk=secondAsk.toUpperCase();
-
-if(secondAsk==='YES'){
-    //console.log('that is right');
-    alert('that is right');
-   score++
-}if (secondAsk==='NO') {
-    //console.log('no i love it');
-    alert('no i love it');
-}
-
-else{
-   // console.log('answer yes or no');
-    alert('answer yes or no');
-}
+function secQ(){
+    
+    let secondAsk=prompt("Do  I like food ?")
+    
+    secondAsk=secondAsk.toUpperCase();
+    
+    if(secondAsk==='YES'){
+        //console.log('that is right');
+        alert('that is right');
+       score++
+    }if (secondAsk==='NO') {
+        //console.log('no i love it');
+        alert('no i love it');
+    }
+    
+    else{
+       // console.log('answer yes or no');
+        alert('answer yes or no');
+    }return secondAsk
+}secQ()
 
 let thirdAsk=prompt("Do I have so much money?")
 
