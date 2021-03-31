@@ -89,26 +89,28 @@ function fourQ(){
         alert('answer yes or no');
     }return fourthAsk
 }fourQ()
+function fiveQ(){
 
-let fifthAsk=prompt("Do you annoyed from my question?")
-
-fifthAsk=fifthAsk.toUpperCase();
-
-if(fifthAsk==='YES'){
-    //console.log('it is uo to you');
-    alert('it is up to you');
-
-}if (fifthAsk==='NO') {
-   // console.log('no i love it');
-    alert('no i love it');
-    score++
-}
-
-else{
-    console.log('answer yes or no');
-    alert('answer yes or no');
-
-}
+    let fifthAsk=prompt("Do you annoyed from my question?")
+    
+    fifthAsk=fifthAsk.toUpperCase();
+    
+    if(fifthAsk==='YES'){
+        //console.log('it is uo to you');
+        alert('it is up to you');
+    
+    }if (fifthAsk==='NO') {
+       // console.log('no i love it');
+        alert('no i love it');
+        score++
+    }
+    
+    else{
+        console.log('answer yes or no');
+        alert('answer yes or no');
+    
+    }return fifthAsk
+}fiveQ()
      
 let sixthAsk=prompt("Please gusse number that I think about it , it's between 0 to 7");
  //sixthAsk-parseInt(sixthAsk);
