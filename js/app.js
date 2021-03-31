@@ -45,26 +45,30 @@ function secQ(){
        // console.log('answer yes or no');
         alert('answer yes or no');
     }return secondAsk
-}secQ()
-
-let thirdAsk=prompt("Do I have so much money?")
-
-thirdAsk=thirdAsk.toLowerCase();
-
-if(thirdAsk==='yes'){
-   // console.log('no it is wrong');
-    alert('no it is wrong');
-
-}if (thirdAsk==='no') {
-   // console.log('you are right');
-    alert('you are right');
-    score++
 }
+secQ()
+function thirdQ(){
 
-else{
-   // console.log('answer yes or no');
-    alert('answer yes or no');
+    let thirdAsk=prompt("Do I have so much money?")
+    
+    thirdAsk=thirdAsk.toLowerCase();
+    
+    if(thirdAsk==='yes'){
+       // console.log('no it is wrong');
+        alert('no it is wrong');
+    
+    }if (thirdAsk==='no') {
+       // console.log('you are right');
+        alert('you are right');
+        score++
+    }
+    
+    else{
+       // console.log('answer yes or no');
+        alert('answer yes or no');
+    }return thirdAsk
 }
+thirdQ()
 
 let fourthAsk=prompt("Do I like Mercedece car?")
 
