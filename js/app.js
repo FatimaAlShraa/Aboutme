@@ -70,23 +70,25 @@ function thirdQ(){
 }
 thirdQ()
 
-let fourthAsk=prompt("Do I like Mercedece car?")
-
-fourthAsk=fourthAsk.toLowerCase();
-
-if(fourthAsk==='yes'){
-   // console.log('that is right');
-    alert('that is right');
-   score++
-}if (fourthAsk==='no') {
-    //console.log('no i really love it');
-    alert('no i really love it');
-}
-
-else{
-    //console.log('answer yes or no');
-    alert('answer yes or no');
-}
+function fourQ(){
+    let fourthAsk=prompt("Do I like Mercedece car?")
+    
+    fourthAsk=fourthAsk.toLowerCase();
+    
+    if(fourthAsk==='yes'){
+       // console.log('that is right');
+        alert('that is right');
+       score++
+    }if (fourthAsk==='no') {
+        //console.log('no i really love it');
+        alert('no i really love it');
+    }
+    
+    else{
+        //console.log('answer yes or no');
+        alert('answer yes or no');
+    }return fourthAsk
+}fourQ()
 
 let fifthAsk=prompt("Do you annoyed from my question?")
 
